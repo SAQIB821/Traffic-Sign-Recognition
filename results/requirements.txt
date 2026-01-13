@@ -1,0 +1,67 @@
+# ============================================
+# TRAFFIC SIGN RECOGNITION - REQUIREMENTS
+# ============================================
+
+# Core Deep Learning Framework
+tensorflow>=2.10.0
+keras>=2.10.0
+
+# Data Processing and Numerical Computing
+numpy>=1.23.0
+pandas>=1.5.0
+
+# Image Processing
+Pillow>=9.2.0
+
+# Data Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Machine Learning Utilities
+scikit-learn>=1.1.0
+
+# Progress Bars
+tqdm>=4.64.0
+
+# Model Serialization
+h5py>=3.7.0
+
+# Jupyter Support (Optional - for notebooks)
+ipython>=8.4.0
+notebook>=6.4.12
+jupyter>=1.0.0
+
+# ============================================
+# OPTIONAL DEPENDENCIES
+# ============================================
+
+# GPU Support (Uncomment if using NVIDIA GPU)
+# tensorflow-gpu>=2.10.0
+
+# Development Tools (Uncomment if needed)
+# pytest>=7.1.0
+# black>=22.6.0
+# flake8>=5.0.0
+# pylint>=2.14.0
+
+# Advanced Visualization (Uncomment if needed)
+# plotly>=5.9.0
+# opencv-python>=4.6.0
+
+# ============================================
+# INSTALLATION INSTRUCTIONS
+# ============================================
+#
+# Basic Installation:
+#   pip install -r requirements.txt
+#
+# With GPU Support:
+#   1. Uncomment tensorflow-gpu line above
+#   2. Install CUDA and cuDNN
+#   3. pip install -r requirements.txt
+#
+# Virtual Environment (Recommended):
+#   python -m venv venv
+#   source venv/bin/activate  # On Windows: venv\Scripts\activate
+#   pip install -r requirements.txt
+#
